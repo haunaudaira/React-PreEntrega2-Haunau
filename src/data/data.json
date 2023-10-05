@@ -1,0 +1,187 @@
+[
+    {
+    "id": 1 ,
+    "title": "Agility Gato",
+    "description": "Alimento balanceado para gato adulto",
+    "precio": 3000,
+    "image": "/bolsas/agilitygatoadulto.png",
+    "categoria": "alimento",
+    "stock": 5
+},{
+    "id": 2 ,
+    "title": "Agility Perro",
+    "description": "Alimento balanceado para perro adulto",
+    "precio": 3000,
+    "image": "/bolsas/agilityperroadulto.png",
+    "categoria": "alimento",
+    "stock": 5
+},{
+    "id": 3 ,
+    "title": "Excellent Gato",
+    "description": "Alimento balanceado para gato adulto",
+    "precio": 4000,
+    "image": "/bolsas/excellentgato.png",
+    "categoria": "alimento",
+    "stock": 5
+},{
+    "id": 4 ,
+    "title": "Excellent Perro",
+    "description": "Alimento balanceado para perro adulto",
+    "precio": 4000,
+    "image": "/bolsas/excellentperro.png",
+    "categoria": "alimento",
+    "stock": 5
+},{
+    "id": 5 ,
+    "title": "Fawna Gato",
+    "description": "Alimento balanceado para gato adulto",
+    "precio": 6000,
+    "image": "/bolsas/fawnagato.png",
+    "categoria": "alimento",
+    "stock": 5
+},{
+    "id": 6 ,
+    "title": "Fawna Perro",
+    "description": "Alimento balanceado para perro adulto",
+    "precio": 6000,
+    "image": "/bolsas/fawnaperro.png",
+    "categoria": "alimento",
+    "stock": 5
+},{
+    "id": 7 ,
+    "title": "Monami Gato",
+    "description": "Alimento balanceado para gato adulto",
+    "precio": 7000,
+    "image": "/bolsas/monamigato.png",
+    "categoria": "alimento",
+    "stock": 5
+},{
+    "id": 8 ,
+    "title": "Monami Perro",
+    "description": "Alimento balanceado para perro adulto",
+    "precio": 7000,
+    "image": "/bolsas/monamiperro.png",
+    "categoria": "alimento",
+    "stock": 5
+},{
+    "id": 9 ,
+    "title": "Old Prince Gato",
+    "description": "Alimento balanceado para gato adulto",
+    "precio": 5000,
+    "image": "/bolsas/oldprincegato.png",
+    "categoria": "alimento",
+    "stock": 5
+},{
+    "id": 10 ,
+    "title": "Old Prince Perro",
+    "description": "Alimento balanceado para perro adulto",
+    "precio": 5000,
+    "image": "/bolsas/oldprinceperro.png",
+    "categoria": "alimento",
+    "stock": 5
+},{
+    "id": 11 ,
+    "title": "Royal Canin Gato",
+    "description": "Alimento balanceado para gato adulto",
+    "precio": 9000,
+    "image": "/bolsas/royalgato.png",
+    "categoria": "alimento",
+    "stock": 5
+},{
+    "id": 12 ,
+    "title": "Royal Canin Cachorro",
+    "description": "Alimento balanceado para cachorro",
+    "precio": 9000,
+    "image": "/bolsas/royalcaninpuppi.png",
+    "categoria": "alimento",
+    "stock": 5
+},{
+    "id": 13 ,
+    "title": "VitalCan Balanced Gato",
+    "description": "Alimento balanceado para gato adulto",
+    "precio": 6000,
+    "image": "/bolsas/balancedgato.png",
+    "categoria": "alimento",
+    "stock": 5
+},{
+    "id": 14 ,
+    "title": "VitalCan Balanced Perro",
+    "description": "Alimento balanceado para perro adulto",
+    "precio": 6000,
+    "image": "/bolsas/balancedperro.png",
+    "categoria": "alimento",
+    "stock": 5
+},{
+    "id": 15 ,
+    "title": "Juguete",
+    "description": "Juguete a batería",
+    "precio": 6000,
+    "image": "/toys/gato.jpg",
+    "categoria": "juguetes",
+    "stock": 5
+},{
+    "id": 16 ,
+    "title": "Juguete",
+    "description": "Juguete a batería",
+    "precio": 6000,
+    "image": "/toys/gato2.jpg",
+    "categoria": "juguetes",
+    "stock": 5
+},{
+    "id": 17 ,
+    "title": "Juguete",
+    "description": "Juguete anti ansiedad para perros",
+    "precio": 6000,
+    "image": "/toys/perro2.jpg",
+    "categoria": "juguetes",
+    "stock": 5
+},{
+    "id": 18 ,
+    "title": "Juguete",
+    "description": "Peluches para mascotas",
+    "precio": 6000,
+    "image": "/toys/peluches.jpg",
+    "categoria": "juguetes",
+    "stock": 5
+},{
+    "id": 19 ,
+    "title": "AntiPulgas Bayer",
+    "description": "Anti Pulgas marca Bayer para gatos",
+    "precio": 1000,
+    "image": "/antipulgas/bayergato.png",
+    "categoria": "antipulgas",
+    "stock": 5
+},{
+    "id": 20 ,
+    "title": "AntiPulgas Bayer",
+    "description": "Anti Pulgas marca Bayer para perros",
+    "precio": 1000,
+    "image": "/antipulgas/bayerperro.png",
+    "categoria": "antipulgas",
+    "stock": 5
+},{
+    "id": 21 ,
+    "title": "AntiPulgas Ecthol",
+    "description": "Anti Pulgas marca Ecthol para gatos",
+    "precio": 1000,
+    "image": "/antipulgas/ectholgato.png",
+    "categoria": "antipulgas",
+    "stock": 5
+},{
+    "id": 22 ,
+    "title": "Piedras Sanitarias CanCat",
+    "description": "Piedras sanitarias sílicas de gel",
+    "precio": 2000,
+    "image": "/higiene/piedrassanitarias.png",
+    "categoria": "higiene",
+    "stock": 5
+},{
+    "id": 23 ,
+    "title": "Piedras Sanitarias Absorsol",
+    "description": "Piedras sanitarias alta gama",
+    "precio": 2000,
+    "image": "/higiene/altagama.png",
+    "categoria": "higiene",
+    "stock": 5
+}
+]

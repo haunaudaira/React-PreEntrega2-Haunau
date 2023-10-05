@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Inclusive+Sans:ital@0;1&display=swap');
+
+.encabezado{
+    background-color: rgba(172, 220, 207, 255);
+    padding: 10px;
+}
+.encabezado .encabezado-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.encabezado .encabezado-list .vetlogo{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Borel', cursive;
+}

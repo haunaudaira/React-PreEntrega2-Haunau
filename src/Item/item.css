@@ -1,0 +1,76 @@
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 50px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.logos-cuerpo{
+    display: flex;
+    flex-direction: column;
+    border: solid rgba(0, 0, 0, 0.281) 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.logoimg{
+    align-self: center;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 18px;
+}
+
+.btndescuento{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid rgba(0, 0, 0, 0.452) 1px;
+    background-color:rgb(205,204,236);
+}
+
+.btndescuento p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 5px;
+}
+
+
+.item-count{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.item-count button{
+    border-radius: 5px;
+    border: solid rgba(0, 0, 0, 0.349) 1px;
+    padding: 7px;
+    background-color: rgb(255, 255, 255);
+}
+
+.item-count p{
+    padding: 7px;
+}
+
+.contador-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.contador-container button{
+    border-radius: 5px;
+    border: solid rgba(0, 0, 0, 0.349) 1px;
+    padding: 7px;
+    background-color: rgb(255, 255, 255);
+
+}
