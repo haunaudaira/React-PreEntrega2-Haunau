@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React-PreEntrega2-Haunau/build/static/css/main.2c6a2154.css",
+    "main.js": "/React-PreEntrega2-Haunau/build/static/js/main.a4106e6e.js",
+    "static/media/twitter.png": "/React-PreEntrega2-Haunau/build/static/media/twitter.5d83fe20a1fcd119ef27.png",
+    "static/media/tarjetas.png": "/React-PreEntrega2-Haunau/build/static/media/tarjetas.3da0ddbd326c8654ade1.png",
+    "static/media/instagram.png": "/React-PreEntrega2-Haunau/build/static/media/instagram.a80caf3c23337f50f2c8.png",
+    "static/media/mp.png": "/React-PreEntrega2-Haunau/build/static/media/mp.ca9d89196cc143e5d57b.png",
+    "index.html": "/React-PreEntrega2-Haunau/build/index.html",
+    "static/media/flama.svg": "/React-PreEntrega2-Haunau/build/static/media/flama.579d92f40d4589fb0bd7414d4907f34e.svg",
+    "static/media/cart.svg": "/React-PreEntrega2-Haunau/build/static/media/cart.d0f8b972e3ef061d9917676a738cba6c.svg",
+    "main.2c6a2154.css.map": "/React-PreEntrega2-Haunau/build/static/css/main.2c6a2154.css.map",
+    "main.a4106e6e.js.map": "/React-PreEntrega2-Haunau/build/static/js/main.a4106e6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c6a2154.css",
+    "static/js/main.a4106e6e.js"
+  ]
+}
