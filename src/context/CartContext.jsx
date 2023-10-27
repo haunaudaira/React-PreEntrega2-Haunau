@@ -1,15 +1,11 @@
 import { createContext, useEffect, useState } from "react"; // hook para crear contexto
 import Swal from "sweetalert2";
-import Checkout from "../components/Checkout";
-import { Link } from "react-router-dom";
-import { addDoc, collection, getFirestore } from "firebase/firestore";
 
 export const CartContext = createContext();
 
 const initialCart = JSON.parse(localStorage.getItem("cart")) || [];
 
 export const CartProvider = ({ children }) => {
-
     const [cart, setCart] = useState(initialCart);
 
 
@@ -49,16 +45,9 @@ export const CartProvider = ({ children }) => {
         return cart.reduce((acc, prod) => acc + prod.precio * prod.cantidad, 0);
     }
 
-    const numbers = Math.floor(Math.random() * 1000);
-
-    const orden = () =>{
-        let ordenNueva = JSON.parse(localStorage.getItem("numbers")) || [];
-        localStorage.setItem("orden", JSON.stringify(numbers))
-        return(numbers)
-    }
     const handleConfirm = () => {
         Swal.fire(
-            '¡Gracias por tu compra!',
+            '',
             'te estamos dirigiendo al Check Out',
             'success'
         )
@@ -86,26 +75,31 @@ export const CartProvider = ({ children }) => {
         }
     }
 
-    useEffect(() => {
-        localStorage.setItem("cart", JSON.stringify(cart))
-    }, [cart])
-
     const handleDelete = (itemId) =>{
         let deleteItem = cart.filter((prod) => prod.id !== itemId)
         setCart(deleteItem)
     }
 
+
+    //acá dentro también está generado el numero de orden utilizando un número aleatorio de 3 dígitos, el cual se verá en pantalla una vez finalizada la compra
+
     const handleFinish = () => {
+
+        let orderNumber = Math.floor(Math.random() * 1000);
+        localStorage.setItem('orden', orderNumber);
+
         Swal.fire(
-            '¡Tu compra fue registrada!',
-            'Revisa tu bandeja de correo para ver más información sobre el envío ',
+            'Numero de orden: '+ ` ${orderNumber}`,
+            '¡Compra realizada con éxito! Revisa tu bandeja de correo para ver más información sobre el envío',
             'success'
         )
         setCart([])
+        localStorage.setItem("cart", JSON.stringify(cart))
     }
 
+
     return (
-        <CartContext.Provider value={{ cart, addToCart, cartCount, total, handleConfirm, handleCancel, handleFinish, handleDelete, orden}}>
+        <CartContext.Provider value={{ cart, addToCart, cartCount, total, handleConfirm, handleCancel, handleFinish, handleDelete}}>
             {children}
         </CartContext.Provider>
     )

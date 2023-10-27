@@ -7,7 +7,7 @@ import { useForm } from 'react-hook-form';
 
 
 export default function Checkout() {
-    const { cart, total, handleFinish, orden } = useContext(CartContext);
+    const { cart, total, handleFinish  } = useContext(CartContext);
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
     
     //captura los datos cargados en form y los guarda en ls 
@@ -17,6 +17,7 @@ export default function Checkout() {
         reset()
         submitForm && handleFinish()
     })
+
 
     return (
         <div className='checkout-container'>
@@ -168,7 +169,6 @@ export default function Checkout() {
                         ))
                     }
                     <h2 className='texto-cart'>Precio Total: ${total()}</h2>
-                    <p>número de orden: #{orden()}</p>
                 </div>
             </div>
             <button onClick={submitForm} className='btn1'> Finalizar Compra </button>
