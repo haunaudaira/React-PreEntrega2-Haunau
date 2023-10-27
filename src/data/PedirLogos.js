@@ -1,5 +1,3 @@
-
-
 import logos from "./data.json"
 
 export const PedirLogos = () => {

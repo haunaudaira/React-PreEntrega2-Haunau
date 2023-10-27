@@ -110,5 +110,3 @@ export const CartProvider = ({ children }) => {
         </CartContext.Provider>
     )
 }
-
-//Context provee una forma de pasar datos a través del árbol de componentes sin tener que pasar props manualmente en cada nivel. Es decir, la gracia de Context tiene que ver con pasar datos de una forma directa, y se usa para compartir datos que pueden considerarse “globales” para un árbol de componentes en React.

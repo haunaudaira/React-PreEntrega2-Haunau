@@ -4,15 +4,15 @@
     "title": "Agility Gato",
     "description": "Alimento balanceado para gato adulto",
     "precio": 3000,
-    "image": "/bolsas/agilitygatoadulto.png",
+    "image": "https://www.alican.com.ar/wp-content/uploads/2018/04/Agility_Cat_Urinary_1000x1000.png",
     "categoria": "alimento",
     "stock": 5
 },{
     "id": 2 ,
-    "title": "Agility Perro",
-    "description": "Alimento balanceado para perro adulto",
+    "title": "Agility Cachorro",
+    "description": "Alimento balanceado para cachorro",
     "precio": 3000,
-    "image": "/bolsas/agilityperroadulto.png",
+    "image": "https://mundomascotas.tiendapets.com.ar/wp-content/uploads/2021/07/UsyErBVQ.png",
     "categoria": "alimento",
     "stock": 5
 },{
@@ -20,7 +20,7 @@
     "title": "Excellent Gato",
     "description": "Alimento balanceado para gato adulto",
     "precio": 4000,
-    "image": "/bolsas/excellentgato.png",
+    "image": "https://toquipetshop.com.ar/wp-content/uploads/2019/09/Excellent-gato-adulto.png",
     "categoria": "alimento",
     "stock": 5
 },{
@@ -28,7 +28,7 @@
     "title": "Excellent Perro",
     "description": "Alimento balanceado para perro adulto",
     "precio": 4000,
-    "image": "/bolsas/excellentperro.png",
+    "image": "https://toquipetshop.com.ar/wp-content/uploads/2023/07/Excellent-formula-.png",
     "categoria": "alimento",
     "stock": 5
 },{
@@ -36,7 +36,7 @@
     "title": "Fawna Gato",
     "description": "Alimento balanceado para gato adulto",
     "precio": 6000,
-    "image": "/bolsas/fawnagato.png",
+    "image": "https://nutrican.com.ar/wp-content/uploads/2022/09/FAWNA-GATO.png",
     "categoria": "alimento",
     "stock": 5
 },{
@@ -44,7 +44,7 @@
     "title": "Fawna Perro",
     "description": "Alimento balanceado para perro adulto",
     "precio": 6000,
-    "image": "/bolsas/fawnaperro.png",
+    "image": "https://cordoba.pluspet.com.ar/cdn/shop/products/alimento-fawna-perro-adulto-raza-pequena-01_1024x.png?v=1694784949",
     "categoria": "alimento",
     "stock": 5
 },{
@@ -52,7 +52,7 @@
     "title": "Monami Gato",
     "description": "Alimento balanceado para gato adulto",
     "precio": 7000,
-    "image": "/bolsas/monamigato.png",
+    "image": "https://nanolog.vtexassets.com/arquivos/ids/167181/caja-alimento-sf-pym-14kg-1.png?v=637742269610970000",
     "categoria": "alimento",
     "stock": 5
 },{
@@ -60,7 +60,7 @@
     "title": "Monami Perro",
     "description": "Alimento balanceado para perro adulto",
     "precio": 7000,
-    "image": "/bolsas/monamiperro.png",
+    "image": "https://puppis.vteximg.com.br/arquivos/ids/184213-1000-1000/133001.png?v=637733510134800000",
     "categoria": "alimento",
     "stock": 5
 },{
@@ -68,7 +68,7 @@
     "title": "Old Prince Gato",
     "description": "Alimento balanceado para gato adulto",
     "precio": 5000,
-    "image": "/bolsas/oldprincegato.png",
+    "image": "https://www.petmarket.com.ar/wp-content/uploads/2022/06/Old-Prince-Gato-Cordero-3kg-1-1.png",
     "categoria": "alimento",
     "stock": 5
 },{
@@ -76,7 +76,7 @@
     "title": "Old Prince Perro",
     "description": "Alimento balanceado para perro adulto",
     "precio": 5000,
-    "image": "/bolsas/oldprinceperro.png",
+    "image": "https://nutrican.com.ar/wp-content/uploads/2022/09/OLD-PRINCE-PERRO-CERDO-ADULTO.png",
     "categoria": "alimento",
     "stock": 5
 },{
@@ -84,15 +84,15 @@
     "title": "Royal Canin Gato",
     "description": "Alimento balanceado para gato adulto",
     "precio": 9000,
-    "image": "/bolsas/royalgato.png",
+    "image": "https://animall.com.ar/5992/royal-canin-gatos-urinary-care-x-15-kg.jpg",
     "categoria": "alimento",
     "stock": 5
 },{
     "id": 12 ,
-    "title": "Royal Canin Cachorro",
-    "description": "Alimento balanceado para cachorro",
+    "title": "Royal Canin perro",
+    "description": "Alimento balanceado para perro adulto",
     "precio": 9000,
-    "image": "/bolsas/royalcaninpuppi.png",
+    "image": "https://herspet.com/wp-content/uploads/2020/10/ar-l-producto-medium-dermacomfort-canine-care-nutrition-seco-1.png",
     "categoria": "alimento",
     "stock": 5
 },{
@@ -100,71 +100,71 @@
     "title": "VitalCan Balanced Gato",
     "description": "Alimento balanceado para gato adulto",
     "precio": 6000,
-    "image": "/bolsas/balancedgato.png",
+    "image": "https://www.universomascota.com.ar/wp-content/uploads/2023/06/balanced-gato.png",
     "categoria": "alimento",
     "stock": 5
 },{
     "id": 14 ,
-    "title": "VitalCan Balanced Perro",
-    "description": "Alimento balanceado para perro adulto",
+    "title": "VitalCan Balanced Cachorro",
+    "description": "Alimento balanceado para cachorro",
     "precio": 6000,
-    "image": "/bolsas/balancedperro.png",
+    "image": "https://nutrican.com.ar/wp-content/uploads/2021/06/BALANCED-PUPPY-GRANDE-20KG.png",
     "categoria": "alimento",
     "stock": 5
 },{
     "id": 15 ,
-    "title": "Juguete",
-    "description": "Juguete a batería",
+    "title": "Juguete Gatos",
+    "description": "Juguete",
     "precio": 6000,
-    "image": "/toys/gato.jpg",
+    "image": "https://s3-sa-east-1.amazonaws.com/mispichos.com.ar/mp_images/desktop_can-cat-duo-raton-con-hilo_869",
     "categoria": "juguetes",
     "stock": 5
 },{
     "id": 16 ,
-    "title": "Juguete",
-    "description": "Juguete a batería",
+    "title": "Juguete Perros",
+    "description": "Juguete masticable",
     "precio": 6000,
-    "image": "/toys/gato2.jpg",
+    "image": "https://toquipetshop.com.ar/wp-content/uploads/2023/05/Combo-6-Juguetes.png",
     "categoria": "juguetes",
     "stock": 5
 },{
     "id": 17 ,
-    "title": "Juguete",
-    "description": "Juguete anti ansiedad para perros",
+    "title": "Juguete Perros",
+    "description": "Juguete masticable para perros",
     "precio": 6000,
-    "image": "/toys/perro2.jpg",
+    "image": "https://m.media-amazon.com/images/I/71MFqMjKEYL._AC_UF1000,1000_QL80_.jpg",
     "categoria": "juguetes",
     "stock": 5
 },{
     "id": 18 ,
-    "title": "Juguete",
-    "description": "Peluches para mascotas",
+    "title": "Juguete Gatos",
+    "description": "Juguete con movimiento para gatos",
     "precio": 6000,
-    "image": "/toys/peluches.jpg",
+    "image": "https://almaspeludas.com/cdn/shop/products/PESCADOSALTARIN_4_1024x.png?v=1645048490",
     "categoria": "juguetes",
     "stock": 5
 },{
     "id": 19 ,
-    "title": "AntiPulgas Bayer",
-    "description": "Anti Pulgas marca Bayer para gatos",
+    "title": "AntiPulgas Varias Marcas",
+    "description": "Anti Pulgas perros",
     "precio": 1000,
-    "image": "/antipulgas/bayergato.png",
+    "image": "https://arcadenoe.com.gt/cdn/shop/products/150412_1024x.png?v=1586149284",
     "categoria": "antipulgas",
     "stock": 5
 },{
     "id": 20 ,
-    "title": "AntiPulgas Bayer",
-    "description": "Anti Pulgas marca Bayer para perros",
+    "title": "AntiPulgas Varias Marcas",
+    "description": "Anti Pulgas gatos",
     "precio": 1000,
-    "image": "/antipulgas/bayerperro.png",
+    "image": "https://bandpets.mx/userfiles/bandpets_2018/image/frontline-gatos.png",
     "categoria": "antipulgas",
     "stock": 5
 },{
     "id": 21 ,
-    "title": "AntiPulgas Ecthol",
-    "description": "Anti Pulgas marca Ecthol para gatos",
+    "title": "AntiParasitarios Externo",
+    "description": "AntiParasitario uso externo en PERROS o diluido para ambientes.",
     "precio": 1000,
-    "image": "/antipulgas/ectholgato.png",
+    "image": "https://nubishops.com.ar/tools/thumb.php?im=https://d3ugyf2ht6aenh.cloudfront.net/stores/001/371/733/products/0720-00351-a454a58f12970285ef16082155801604-1024-1024.jpg",
     "categoria": "antipulgas",
     "stock": 5
 },{
@@ -172,15 +172,15 @@
     "title": "Piedras Sanitarias CanCat",
     "description": "Piedras sanitarias sílicas de gel",
     "precio": 2000,
-    "image": "/higiene/piedrassanitarias.png",
+    "image": "https://nutrican.com.ar/wp-content/uploads/2022/11/Can-cat-neutra.png",
     "categoria": "higiene",
     "stock": 5
 },{
     "id": 23 ,
     "title": "Piedras Sanitarias Absorsol",
-    "description": "Piedras sanitarias alta gama",
+    "description": "Piedras sanitarias absorsol",
     "precio": 2000,
-    "image": "/higiene/altagama.png",
+    "image": "https://www.entrenagarrita.com/wp-content/uploads/2022/09/25-min.png",
     "categoria": "higiene",
     "stock": 5
 }

@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
-import "../Item/item.css"
+import "../page.css"
 
-export const ItemCount = ({cantidad, handleRestar, handleSumar, handleAdd}) => {
+export const ItemCount = ({cantidad, handleRest, handleSuma, handleAdd}) => {
 
     return (
         <div className='contador-container'>
             <div className="item-count">
-                <button onClick={handleRestar} >-</button>
+                <button onClick={handleRest} >-</button>
                 <p>{cantidad}</p>
-                <button onClick={handleSumar} >+</button>
+                <button onClick={handleSuma} >+</button>
             </div>
             <button className="addtocart" onClick={handleAdd} >Agregar al carrito</button>
         </div>
