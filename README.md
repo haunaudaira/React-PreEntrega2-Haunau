@@ -35,3 +35,7 @@ También un resumen de los productos del carrito y nuevamente el precio total.
 Al confirmar la compra, se activa SweetAlert el cual nos trae el numero de orden de la compra y se vacía el carrito.
 
 Tanto el número de orden como los productos agregados al carrito y los datos del form una vez se finalice la compra quedan almacenados en en LS.
+
+## Link a video de funcionamiento 
+
+https://www.loom.com/share/45070d4e785a4f3fa86e423009a66e8f?sid=0f76e445-3ce6-4851-b3c3-8dd4ca482972
