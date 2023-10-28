@@ -38,4 +38,4 @@ Tanto el número de orden como los productos agregados al carrito y los datos de
 
 ## Link a video de funcionamiento 
 
-https://www.loom.com/share/45070d4e785a4f3fa86e423009a66e8f?sid=0f76e445-3ce6-4851-b3c3-8dd4ca482972
+https://www.loom.com/share/efb24ace46434e3f965308926e895285?sid=f46d0cfc-3ea3-433f-9bc1-e94adac0ffb0
