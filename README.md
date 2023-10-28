@@ -13,7 +13,7 @@ Para este proyecto desarrollé un e-commerce de productos para mascotas
 ## Cuenta con 
 * Header con carrito contabilizado
 * NavBar que permite navegar entre categorías
-* Cuerpo de la página desde donde se visualizan todos los productos y se puede acceder a la descripción de c/u para agregarlos al carrito. Si al momento de querer agregar un producto al carrito la cantidad seleccionada debe ser mayor a 0.
+* Cuerpo de la página desde donde se visualizan todos los productos y se puede acceder a la descripción de c/u para agregarlos al carrito. Al momento de querer agregar un producto al carrito la cantidad seleccionada debe ser mayor a 0.
 * Footer con links a redes sociales, Mapa de google con ubicación ficticia y medios de pagos aceptados. 
 
 ## Carrito
