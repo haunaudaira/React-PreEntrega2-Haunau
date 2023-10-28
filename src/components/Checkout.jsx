@@ -3,6 +3,9 @@ import { Link, NavLink } from 'react-router-dom'
 import { CartContext } from '../context/CartContext';
 import "../page.css"
 import { useForm } from 'react-hook-form';
+import { collection, addDoc } from "firebase/firestore"
+import { db } from "../firebase/config"
+import Swal from 'sweetalert2';
 
 
 
@@ -10,12 +13,33 @@ export default function Checkout() {
     const { cart, total, handleFinish  } = useContext(CartContext);
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
     
-    //captura los datos cargados en form y los guarda en ls 
+    //captura los datos cargados en form y los guarda en ls y la base de datos de firebase
     const submitForm = handleSubmit((data) => {
-        console.log(data)
-        localStorage.setItem("data", JSON.stringify(data))
+
+        const orden ={
+            cliente: data,
+            prods: cart,
+            total: total()
+        }
+        // console.log(orden)
+
+        const pedidosRef = collection(db, "pedidos")
+
+        addDoc(pedidosRef, orden)
+        .then ((doc) =>{
+            // console.log(doc.id)
+            Swal.fire(
+            'Numero de orden: '+ ` ${doc.id}`,
+            '¡Compra realizada con éxito! Revisa tu bandeja de correo para ver más información sobre el envío',
+            'success'
+        )
+        localStorage.setItem("orden", JSON.stringify(doc.id))
+        })
+        
         reset()
         submitForm && handleFinish()
+        
+        localStorage.setItem("data", JSON.stringify(data))
     })
 
 

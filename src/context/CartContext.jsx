@@ -81,19 +81,14 @@ export const CartProvider = ({ children }) => {
     }
 
 
-    //acá dentro también está generado el numero de orden utilizando un número aleatorio de 3 dígitos, el cual se verá en pantalla una vez finalizada la compra
+    //como otra opción genere un numero aleatorio para usar como numero de orden
 
     const handleFinish = () => {
-
-        let orderNumber = Math.floor(Math.random() * 1000);
-        localStorage.setItem('orden', orderNumber);
-
-        Swal.fire(
-            'Numero de orden: '+ ` ${orderNumber}`,
-            '¡Compra realizada con éxito! Revisa tu bandeja de correo para ver más información sobre el envío',
-            'success'
-        )
         setCart([])
+
+        // let orderNumber = Math.floor(Math.random() * 1000);
+        // localStorage.setItem('orden', orderNumber);
+
         localStorage.setItem("cart", JSON.stringify(cart))
     }
 
